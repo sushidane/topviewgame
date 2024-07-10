@@ -1,1 +1,29 @@
+let player={x:600,y:600}
 
+function setup() {
+  createCanvas(1200, 1200);
+  background(255);
+  fill(0)
+  rect(0,800,1200,400)
+  rect(0,0,1200,400)
+  rect(0,400,400,400)
+  rect(800,400,400,400)
+  fill(255)
+  textSize(15)
+  text("攻撃",300,410)
+  text("方向転換",290,555)
+  text("移動",300,700)
+  fill(255,255,0)
+  ellipse(315,460,60,60)
+  fill(0,255,0)
+  ellipse(315,600,60,60)
+  fill(0,255,255)
+  ellipse(315,740,60,60)
+  fill(0)
+  text("Gキー",300,465)
+  text("マウス",295,605)
+  text("Fキー",300,745)
+}
+
+function draw() {
+}
